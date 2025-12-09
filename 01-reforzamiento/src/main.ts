@@ -6,8 +6,8 @@ import './style.css';
 // import './bases/05-functions';
 // import './bases/06-obj-destructuring';
 // import './bases/07-array-destructuring';
-import './bases/08-tarea-destructuring';
-
+// import './bases/08-tarea-destructuring';
+import './bases/09-import-export';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

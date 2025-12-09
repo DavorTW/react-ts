@@ -1,4 +1,4 @@
-interface Hero{
+export interface Hero{
     id: number;
     name: string;
     owner: Owner;
@@ -6,12 +6,12 @@ interface Hero{
 
 // type Owner = 'DC' | 'Marvel';
 enum Owner {
-    DC, // 0
-    Marvel // 1
+    DC = 'DC', // 0 //'DC'
+    Marvel = 'Marvel' // 1 // 'Marvel'
 }
 
 
-const heroes: Hero[] = [
+export const heroes: Hero[] = [
   {
     id: 1,
     name: 'Batman',
@@ -43,3 +43,4 @@ const heroes: Hero[] = [
     owner: Owner.DC
   }
 ];
+
