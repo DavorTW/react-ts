@@ -7,7 +7,11 @@ import './style.css';
 // import './bases/06-obj-destructuring';
 // import './bases/07-array-destructuring';
 // import './bases/08-tarea-destructuring';
-import './bases/09-import-export';
+// import './bases/09-import-export';
+// import './bases/10-tarea-imp-exp';
+// import './bases/11-promises';
+import './bases/12-fetch-api';
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
