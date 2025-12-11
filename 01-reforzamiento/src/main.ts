@@ -10,7 +10,8 @@ import './style.css';
 // import './bases/09-import-export';
 // import './bases/10-tarea-imp-exp';
 // import './bases/11-promises';
-import './bases/12-fetch-api';
+// import './bases/12-fetch-api';
+import './bases/13-async-await';
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
