@@ -24,15 +24,15 @@ export function MyAwesomeComponent() {
 
 
     return (
-        <>
+        <div data-testid="div-app">
             <h1>{firstName}</h1>
-            <h3>{lastName}</h3>
+            <h3 data-testid="last-name-title">{lastName}</h3>
             <p>{favoriteGames.join(', ')}</p>
 
             <h2>{isActive ? 'Activo' : 'No activo'}</h2>
             <p
             style={myStyles}
             >{JSON.stringify(address) }</p>
-        </>
+        </div>
     )
 }
